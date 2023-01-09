@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Home
 - type: document
   path: ''
   label: Page
-  match: "**/*"
 - type: directory
   path: content
   label: Post

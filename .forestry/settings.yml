@@ -7,7 +7,6 @@ sections:
 - type: document
   path: dhfd
   label: dh
-  match: "**/*"
 - type: document
   path: HHH
   label: HHH
@@ -22,7 +21,7 @@ sections:
   - post
 - type: directory
   path: content/about
-  label: About
+  label: Abouts
   create: none
   match: "*"
 - type: directory
